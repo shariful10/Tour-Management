@@ -6,11 +6,12 @@ import SearchResultList from "../pages/SearchResultList";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Tours from './../pages/Tours';
+import App from "../App";
 
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Layout />,
+		element: <App />,
       children: [
          {
             path: "/",
