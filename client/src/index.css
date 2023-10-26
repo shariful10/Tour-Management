@@ -37,6 +37,7 @@ a {
 	text-decoration: none;
 	color: unset;
 }
+
 ul {
 	list-style: none;
 }
@@ -53,9 +54,11 @@ ul {
 	text-decoration: none;
 	color: #fff;
 }
+
 .primary__btn a:hover {
 	color: inherit;
 }
+
 .secondary__btn {
 	background: transparent !important;
 	color: #0b2727 !important;
